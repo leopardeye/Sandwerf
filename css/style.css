@@ -616,6 +616,7 @@ footer {
 }
 .tcg-container {
   position: relative;
+  width: 100%;
   background-color: hsl(0, 0%, 95%);
   z-index: 10;
   padding: 6rem 0 6rem 0;
@@ -840,6 +841,12 @@ footer {
   }
 }
 @media (max-width: 660px) {
+  .tcg-content-left {
+    padding-left: 0;
+  }
+  .tcg-content-right {
+    padding-right: 0;
+  }
   .two-col-grid-left {
     display: grid;
     flex-direction: column;
@@ -892,14 +899,14 @@ footer {
     box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
   }
   .tcg-content-right {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
   }
   .tcg-content-left {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
