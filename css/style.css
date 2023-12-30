@@ -48,8 +48,9 @@ p {
 }
 
 .b-1 {
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   margin: 0.5rem 0 0 0;
@@ -135,6 +136,12 @@ p {
     width: 80vw;
   }
 }
+.pager-header {
+  width: 100%;
+  height: 70vh;
+  background-color: hsl(73, 5%, 64%);
+}
+
 @keyframes fadeOut {
   0% {
     opacity: 1;
@@ -957,7 +964,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-image: url(../assets/images/1_sandwerf_mainbuilding_2500.jpg);
+  background-image: url(../assets/images/landing-images/home_sandwerf_mainbuilding_1_2400.jpg);
   background-size: cover;
   background-position-x: 45%;
   background-position-y: 45%;
@@ -1036,7 +1043,7 @@ footer {
 
 @media (max-width: 1440px) {
   .hero {
-    background-image: url(../assets/images/1_sandwerf_mainbuilding_1960.jpg);
+    background-image: url(../assets/images/landing-images/home_sandwerf_mainbuilding_1_1800.jpg);
   }
   .hero-container {
     width: 100vw;
@@ -1047,7 +1054,7 @@ footer {
 }
 @media (max-width: 1024px) {
   .hero {
-    background-image: url(../assets/images/1_sandwerf_mainbuilding_1200.jpg);
+    background-image: url(../assets/images/landing-images/home_sandwerf_mainbuilding_1_1800.jpg);
   }
   .hero-container {
     width: 100vw;
@@ -1058,7 +1065,7 @@ footer {
 }
 @media (max-width: 768px) {
   .hero {
-    background-image: url(../assets/images/1_sandwerf_mainbuilding_1200.jpg);
+    background-image: url(../assets/images/landing-images/home_sandwerf_mainbuilding_1_1800.jpg);
   }
   .hero-container {
     width: 100vw;
@@ -1087,7 +1094,7 @@ footer {
 }
 @media (max-width: 660px) {
   .hero {
-    background-image: url(../assets/images/1_sandwerf_mainbuilding_1200.jpg);
+    background-image: url(../assets/images/landing-images/home_sandwerf_mainbuilding_1_1800.jpg);
     background-position-x: 35%;
     height: 85vh;
   }
@@ -1112,5 +1119,10 @@ footer {
   .hero-sub-img-sq {
     width: 6rem;
     height: 6rem;
+  }
+}
+@media (max-width: 425px) {
+  .hero {
+    background-image: url(../assets/images/landing-images/home_sandwerf_mainbuilding_1_900.jpg);
   }
 }
