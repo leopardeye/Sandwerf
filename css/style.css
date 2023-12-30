@@ -163,6 +163,10 @@ p {
   }
 }
 header {
+  position: fixed;
+  z-index: 150;
+  top: 0;
+  left: 0;
   -webkit-animation: fadeIn 0.2s ease-in-out forwards;
   animation: fadeIn 0.2s ease-in-out forwards;
   opacity: 1;
@@ -988,7 +992,7 @@ footer {
 .hero-container {
   position: relative;
   width: 100%;
-  margin: 100% auto 0 auto;
+  margin: 100vh auto 0 auto;
   padding: 2rem 2rem 1rem 2rem;
   background-color: hsl(0, 0%, 95%);
   backdrop-filter: blur(0.2rem);
