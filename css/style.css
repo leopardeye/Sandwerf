@@ -1028,6 +1028,9 @@ footer {
 }
 
 @media (max-width: 1440px) {
+  .hero {
+    background-image: url(../assets/images/1_sandwerf_mainbuilding_1960.jpg);
+  }
   .hero-container {
     width: 100vw;
   }
@@ -1036,6 +1039,9 @@ footer {
   }
 }
 @media (max-width: 1024px) {
+  .hero {
+    background-image: url(../assets/images/1_sandwerf_mainbuilding_1200.jpg);
+  }
   .hero-container {
     width: 100vw;
   }
@@ -1044,6 +1050,12 @@ footer {
   }
 }
 @media (max-width: 768px) {
+  .hero {
+    background-image: url(../assets/images/1_sandwerf_mainbuilding_1200.jpg);
+  }
+  .hero-container {
+    width: 100vw;
+  }
   .hero-container {
     width: 100vw;
   }
@@ -1068,6 +1080,7 @@ footer {
 }
 @media (max-width: 660px) {
   .hero {
+    background-image: url(../assets/images/1_sandwerf_mainbuilding_1200.jpg);
     background-position-x: 35%;
     height: 85vh;
   }
