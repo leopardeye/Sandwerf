@@ -489,7 +489,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: right;
-    padding-right: 2rem;
+    padding: 1rem 2rem 1rem 0;
     text-align: right;
     flex-direction: column;
     pointer-events: none;
@@ -508,8 +508,9 @@ header {
   }
   .mobile-nav li {
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-right: 1rem;
+    line-height: 1.5rem;
   }
   .mobile-nav-dropdown-items {
     display: none;
@@ -517,6 +518,7 @@ header {
   }
   .mobile-nav-dropdown-items li a {
     color: hsl(70, 8%, 44%);
+    line-height: 1.5rem;
   }
   .mobile-nav-dropdown.active .mobile-nav-dropdown-items {
     display: block;
