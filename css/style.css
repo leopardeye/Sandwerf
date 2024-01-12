@@ -1114,11 +1114,9 @@ footer {
   display: grid;
   width: 50vw;
   height: 100%;
-  height: 18rem;
   grid-template-columns: 0.9fr 1.1fr;
   grid-gap: 5rem;
   margin: 0 auto 6rem auto;
-  padding: 0 0 6rem 0;
 }
 @media (max-width: 1440px) {
   .two-col-grid-left {
@@ -1164,11 +1162,10 @@ footer {
 .two-col-grid-right {
   display: grid;
   width: 50vw;
-  height: 18rem;
+  height: 100%;
   grid-template-columns: 1.1fr 0.9fr;
   grid-gap: 5rem;
   margin: 0 auto 6rem auto;
-  padding: 0 0 6rem 0;
 }
 @media (max-width: 1440px) {
   .two-col-grid-right {
