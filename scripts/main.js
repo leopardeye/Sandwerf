@@ -59,3 +59,16 @@ window.addEventListener("scroll", function() {
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
 }, false);
 
+
+// script to load the correct form in the contact modal
+// document.getElementById('retreat-btn').addEventListener('click', function() {
+//     document.getElementById('retreat-link').href = "../contact/#contact-form?inquiry=retreat";
+// });
+
+// window.onload = function() {
+//     const urlParams = new URLSearchParams(window.location.search);
+//     const inquiry = urlParams.get('inquiry');
+//     if (inquiry) {
+//         document.getElementById('sender-question').value = inquiry;
+//     }
+// }

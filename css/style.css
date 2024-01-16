@@ -86,6 +86,10 @@ h2 {
   text-wrap: balance;
 }
 
+.h2-space-below {
+  margin: 0.5rem 0 4rem 0;
+}
+
 h3 {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
@@ -202,6 +206,10 @@ p {
   width: 12rem;
 }
 
+.btn-left-right-margin {
+  margin: 1rem 1rem 0 1rem;
+}
+
 .bottom-insert {
   position: relative;
   width: 100%;
@@ -222,12 +230,22 @@ p {
 .full-container-img {
   position: relative;
   width: 100%;
-  height: 20vh;
+  height: 35vh;
   margin: 4rem 0 4rem 0;
   padding: 0;
   z-index: 10;
   box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
   background-color: hsl(73, 5%, 64%);
+}
+@media (max-width: 1024px) {
+  .full-container-img {
+    height: 30vh;
+  }
+}
+@media (max-width: 768px) {
+  .full-container-img {
+    height: 25vh;
+  }
 }
 
 .full-container-img img {
@@ -457,7 +475,7 @@ p {
 }
 
 .retreat-head-img {
-  object-position: 30% 18%;
+  object-position: 30% 15%;
 }
 
 .retreat-head-img-bottom {
@@ -465,19 +483,23 @@ p {
 }
 
 .visit-visit-sandwerf-img {
-  object-position: 75% 20%;
+  object-position: 75% 10%;
 }
 
 .visit-accomodation-img {
-  object-position: 35% 70%;
+  object-position: 48% 60%;
+}
+
+.visit-accomodation-bottom {
+  object-position: 30% 60%;
 }
 
 .visit-resteraunt-img {
-  object-position: 50% 80%;
+  object-position: 65% 58%;
 }
 
 .visit-volonteer-img {
-  object-position: 28% 45%;
+  object-position: 28% 65%;
 }
 
 .visit-volonteer-img-bottom {
@@ -485,7 +507,11 @@ p {
 }
 
 .contact-head-img {
-  object-position: 62% 60%;
+  object-position: 62% 45%;
+}
+
+.contact-footer-img {
+  object-position: 30% 25%;
 }
 
 .vision-head-img {
@@ -494,6 +520,46 @@ p {
 
 .vision-bottom-img {
   object-position: 30% 60%;
+}
+
+.vision-top {
+  object-position: 40% 20%;
+}
+
+.event-about-bottom-img {
+  object-position: 55% 20%;
+}
+
+.event-wedding-top {
+  object-position: 60% 25%;
+}
+
+.event-wedding-bottom {
+  object-position: 60% 95%;
+}
+
+.event-workshop-top {
+  object-position: 30% 25%;
+}
+
+.event-worshop-bottom {
+  object-position: 50% 75%;
+}
+
+.event-corpfunc-top {
+  object-position: 48% 50%;
+}
+
+.event-cortfunc-bottom {
+  object-position: 40% 40%;
+}
+
+.visit-activities-top {
+  object-position: 30% 65%;
+}
+
+.visit-activities-bottom {
+  object-position: 50% 50%;
 }
 
 @keyframes fadeOut {
@@ -1638,9 +1704,15 @@ textarea {
 
 .pager-header {
   width: 100vw;
-  height: 65vh;
-  height: 65svh;
+  height: 82svh;
+  height: 82vh;
   background-color: hsl(73, 5%, 64%);
+}
+@media (max-width: 768px) {
+  .pager-header {
+    height: 60svh;
+    height: 60vh;
+  }
 }
 
 .pager-header img {
@@ -1787,4 +1859,56 @@ textarea {
   .cc-card {
     width: 100%;
   }
+}
+
+.staff-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 6rem auto 6rem auto;
+}
+@media (max-width: 768px) {
+  .staff-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.staff-individual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.staff-img {
+  width: 12em;
+  height: 12em;
+  background-color: hsl(0, 0%, 30%);
+  margin: 0 0 1rem 0;
+  border-radius: 1em;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 1440px) {
+  .staff-img {
+    width: 12em;
+    height: 12em;
+  }
+}
+@media (max-width: 1400px) {
+  .staff-img {
+    width: 10em;
+    height: 10em;
+  }
+}
+@media (max-width: 1024px) {
+  .staff-img {
+    width: 8em;
+    height: 8em;
+  }
+}
+
+.staff-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
 }
