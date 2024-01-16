@@ -1872,6 +1872,15 @@ textarea {
   }
 }
 
+.staff-container :last-child {
+  grid-column: 1/4;
+}
+@media (max-width: 768px) {
+  .staff-container :last-child {
+    grid-column: 1/3;
+  }
+}
+
 .staff-individual {
   display: flex;
   flex-direction: column;
