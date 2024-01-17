@@ -1472,7 +1472,7 @@ footer {
 @media (max-width: 768px) {
   .tcg-img-left {
     border-radius: 0 0 0 0;
-    height: 12em;
+    height: 15em;
   }
 }
 
@@ -1496,7 +1496,7 @@ footer {
 @media (max-width: 660px) {
   .tcg-img-right {
     display: none;
-    height: 12em;
+    height: 15em;
   }
 }
 
@@ -1512,7 +1512,7 @@ footer {
   .tcg-img-top {
     display: block;
     border-radius: 0 0 0 0;
-    height: 12em;
+    height: 15em;
   }
 }
 
