@@ -562,6 +562,22 @@ p {
   object-position: 50% 50%;
 }
 
+.retreat-aware-top {
+  object-position: 35% 30%;
+}
+
+.retreat-aware-bottom {
+  object-position: 80% 70%;
+}
+
+.retreat-balance-top {
+  object-position: 75% 55%;
+}
+
+.retreat-balance-bottom {
+  object-position: 90% 40%;
+}
+
 @keyframes fadeOut {
   0% {
     opacity: 1;
