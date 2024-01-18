@@ -263,6 +263,12 @@ h2 {
   margin: 0.5rem 0 4rem 0;
 }
 
+.h2-white-landing {
+  color: hsl(0, 0%, 95%);
+  margin-top: 2rem;
+  line-height: 2rem;
+}
+
 h3 {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
@@ -659,7 +665,7 @@ p {
 }
 
 .retreat-head-img {
-  object-position: 30% 15%;
+  object-position: 45% 75%;
 }
 
 .retreat-head-img-bottom {
@@ -683,7 +689,7 @@ p {
 }
 
 .visit-volonteer-img {
-  object-position: 28% 65%;
+  object-position: 25% 78%;
 }
 
 .visit-volonteer-img-bottom {
@@ -723,11 +729,11 @@ p {
 }
 
 .event-workshop-top {
-  object-position: 30% 25%;
+  object-position: 30% 5%;
 }
 
 .event-worshop-bottom {
-  object-position: 50% 75%;
+  object-position: 90% 60%;
 }
 
 .event-corpfunc-top {
@@ -739,7 +745,7 @@ p {
 }
 
 .visit-activities-top {
-  object-position: 30% 65%;
+  object-position: 87% 45%;
 }
 
 .visit-activities-bottom {
@@ -751,7 +757,7 @@ p {
 }
 
 .retreat-aware-bottom {
-  object-position: 80% 30%;
+  object-position: 30% 30%;
 }
 
 .retreat-balance-top {
@@ -759,7 +765,7 @@ p {
 }
 
 .retreat-balance-bottom {
-  object-position: 90% 40%;
+  object-position: 50% 60%;
 }
 
 @keyframes fadeOut {
