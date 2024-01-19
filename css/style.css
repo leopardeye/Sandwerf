@@ -2204,7 +2204,8 @@ textarea {
 }
 
 .staff-card-img {
-  width: 45%;
+  width: 8em;
+  height: 8em;
   border-radius: 0.5rem;
   background-color: hsl(70, 8%, 44%);
   box-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.3);
