@@ -761,11 +761,19 @@ p {
 }
 
 .retreat-balance-top {
-  object-position: 75% 55%;
+  object-position: 68% 55%;
 }
 
 .retreat-balance-bottom {
-  object-position: 50% 60%;
+  object-position: 85% 50%;
+}
+
+.team-top {
+  object-position: 15% 60%;
+}
+
+.team-bottom {
+  object-position: 50% 50%;
 }
 
 @keyframes fadeOut {
@@ -2136,4 +2144,77 @@ textarea {
 .staff-discription {
   text-align: center;
   font-size: 0.8rem;
+}
+
+.staff-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  margin: 4rem auto 2rem auto;
+  gap: 4rem;
+}
+@media (max-width: 1440px) {
+  .staff-card-container {
+    width: 80%;
+    gap: 3rem;
+  }
+}
+@media (max-width: 1024px) {
+  .staff-card-container {
+    width: 95%;
+    gap: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .staff-card-container {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 576px) {
+  .staff-card-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+}
+
+.staff-card-container :last-child {
+  grid-column: 2/3;
+}
+@media (max-width: 768px) {
+  .staff-card-container :last-child {
+    grid-column: 1/2;
+  }
+}
+
+.staff-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  text-align: center;
+  margin: 0 auto 1rem auto;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 576px) {
+  .staff-card {
+    height: auto;
+  }
+}
+
+.staff-card-img {
+  width: 45%;
+  border-radius: 0.5rem;
+  background-color: hsl(70, 8%, 44%);
+  box-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.3);
+  margin-bottom: 1rem;
+  padding: 0;
+}
+.staff-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
 }
