@@ -713,7 +713,7 @@ p {
 }
 
 .vision-top {
-  object-position: 40% 20%;
+  object-position: 100% 80%;
 }
 
 .event-about-bottom-img {
@@ -774,6 +774,10 @@ p {
 
 .team-bottom {
   object-position: 50% 50%;
+}
+
+.weavery-top-image {
+  object-position: 70% 30%;
 }
 
 @keyframes fadeOut {
@@ -2175,15 +2179,6 @@ textarea {
   .staff-card-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
-  }
-}
-
-.staff-card-container :last-child {
-  grid-column: 2/3;
-}
-@media (max-width: 768px) {
-  .staff-card-container :last-child {
-    grid-column: 1/2;
   }
 }
 
