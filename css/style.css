@@ -1648,13 +1648,13 @@ footer {
 }
 @media (max-width: 768px) {
   .hero {
-    background-image: url(../assets/images/landing-images/home_sandwerf_mainbuilding_1_1800.jpg);
+    background-image: url(../assets/images/landing-images/home_sandwerf_mainbuilding_1_1600.jpg);
   }
 }
 @media (max-width: 660px) {
   .hero {
-    background-image: url(../assets/images/landing-images/home_sandwerf_mainbuilding_1_1800.jpg);
-    background-position-x: 35%;
+    background-image: url(../assets/images/landing-images/home_sandwerf_mainbuilding_1_1600.jpg);
+    background-position-x: 28%;
   }
 }
 
