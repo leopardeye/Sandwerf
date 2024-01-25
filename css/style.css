@@ -2037,7 +2037,17 @@ label {
 
 .temp-ua-container {
   height: 80vh;
+  padding: 0 3rem;
   background-color: hsl(0, 0%, 30%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp-text-container {
+  max-width: 600px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2050,6 +2060,9 @@ label {
   font-weight: 400;
   color: hsl(0, 0%, 95%);
   margin-bottom: 0.5rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  text-wrap: balance;
 }
 
 .temp-ua-p {
@@ -2059,6 +2072,7 @@ label {
   color: hsl(0, 0%, 95%);
   margin-bottom: 0.5rem;
   text-align: center;
+  text-wrap: balance;
 }
 
 .pager-header {
