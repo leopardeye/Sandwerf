@@ -1923,6 +1923,144 @@ textarea {
   background-color: hsl(70, 8%, 44%);
 }
 
+.mail-list-topbottom {
+  height: 15vh;
+  width: 100%;
+  background-color: hsl(0, 0%, 30%);
+}
+
+#mc_embed_shell {
+  padding: 1rem 0 1rem 0;
+  background-color: hsl(0, 0%, 30%);
+}
+
+#mc_embed_signup {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 30%);
+}
+@media (max-width: 768px) {
+  #mc_embed_signup {
+    max-width: 600px;
+  }
+}
+@media (max-width: 576px) {
+  #mc_embed_signup {
+    max-width: 600px;
+    width: 95%;
+  }
+}
+
+#mc_embed_signup_scroll {
+  margin: 2rem;
+  text-align: center;
+}
+
+.signup-h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 2rem;
+}
+
+input {
+  margin: 0.5rem 0 0 0;
+  text-align: center;
+  width: 100%;
+  border-radius: 0.5rem;
+  height: 3rem;
+  background-color: hsl(0, 0%, 95%);
+}
+
+#mce-EMAIL {
+  margin: 0.5rem 0 0 0;
+  text-align: center;
+  width: 100%;
+  border-radius: 0.5rem;
+  height: 3rem;
+  background-color: hsl(0, 0%, 95%);
+  padding: 0;
+}
+
+.required {
+  margin: 0.5rem 0 0 0;
+  text-align: center;
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.mc-field-group {
+  margin: 8rem 0 0 0;
+  width: 100%;
+  height: 8rem;
+  margin: 0 auto;
+}
+
+label {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 95%);
+}
+
+.optionalParent {
+  width: 25%;
+  margin: 0 auto;
+}
+@media (max-width: 576px) {
+  .optionalParent {
+    width: 50%;
+  }
+}
+
+.button {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin: 0.2rem 0 0 0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(187, 100%, 22%);
+  box-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+  background-color: hsl(73, 5%, 64%);
+  box-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+.temp-ua-container {
+  height: 80vh;
+  background-color: hsl(0, 0%, 30%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp-ua-h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 0.5rem;
+}
+
+.temp-ua-p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
 .pager-header {
   width: 100vw;
   height: 82svh;
