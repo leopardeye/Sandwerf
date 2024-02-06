@@ -60,15 +60,29 @@ window.addEventListener("scroll", function() {
 }, false);
 
 
-// script to load the correct form in the contact modal
-// document.getElementById('retreat-btn').addEventListener('click', function() {
-//     document.getElementById('retreat-link').href = "../contact/#contact-form?inquiry=retreat";
-// });
+var modal = document.getElementById("myModal");
+var modalImg = document.getElementById("img01");
 
-// window.onload = function() {
-//     const urlParams = new URLSearchParams(window.location.search);
-//     const inquiry = urlParams.get('inquiry');
-//     if (inquiry) {
-//         document.getElementById('sender-question').value = inquiry;
-//     }
-// }
+Array.from(document.querySelectorAll('.fci-insert-img img')).forEach(img => {
+  img.onclick = function(){
+    modal.style.opacity = "1";
+    modal.style.visibility = "visible";
+    modalImg.src = this.src;
+    console.log(this.src);
+  }
+})
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() { 
+    modal.style.opacity = "0";
+    modal.style.visibility = "hidden";
+}
+
+document.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.opacity = "0";
+      modal.style.visibility = "hidden";
+    }
+  }
+
