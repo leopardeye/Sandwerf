@@ -86,3 +86,17 @@ document.onclick = function(event) {
     }
   }
 
+
+  let video = document.querySelector('video');
+
+let observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.play();
+    } else {
+      entry.target.pause();
+    }
+  });
+}, { threshold: 0.5 }); // Adjust as needed
+
+observer.observe(video);
